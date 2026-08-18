@@ -1,0 +1,44 @@
+Windows (using PowerShell):
+
+EXAMPLE WITH WIRELESS:
+
+.\build.ps1 -Target wlan -Config Debug
+
+BASIC, NO WIRELESS:
+
+Release build:
+
+.\build.ps1
+
+or
+
+.\build.ps1 basic
+
+or
+
+.\build.ps1 Release
+
+Debug build:
+
+.\build.ps1 basic Debug
+
+WITH WIRELESS CARD:
+
+Release build:
+
+.\build.ps1 wlan
+
+or
+
+.\build.ps1 wlan Release
+
+Debug build:
+
+.\build.ps1 wlan Debug
+
+CLEAN BUILD:
+Delete the relevant build folder first, e.g.
+
+Remove-Item -Recurse -Force build-pico-Release
+or
+Remove-Item -Recurse -Force build-pico_w-Debug
