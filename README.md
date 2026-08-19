@@ -8,6 +8,7 @@ A pre-built .uf2 binary is available in the build-pico-Release folder. Hold down
 
 ## Using a PC
 To try the app using a PC, 
+<img src="docs/example-cli.png" alt="Description" width="75%">
 
 # Building the Code
 You'll need your PC set up to with the Pi Pico RP2040 C/C++ SDK installed, and the ARM GNU Toolchain. Inspect (and most likely adjust) the build.ps1 file if you wish to build on Windows using PowerShell.
